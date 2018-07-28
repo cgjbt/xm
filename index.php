@@ -17,7 +17,7 @@ if(version_compare(PHP_VERSION,'5.3.0','<'))  die('require PHP > 5.3.0 !');
 // 开启调试模式 建议开发阶段开启 部署阶段注释或者设为false
 define('APP_DEBUG',True);
 
-define('DOMAIN','xinmei6.com');
+define('DOMAIN','domain.com');
 //以下两行是为了子域名共享SESSION 注意 DOMAIN 需要改为实际的域名
 ini_set('session.cookie_path', '/');
 ini_set('session.cookie_domain', DOMAIN);
